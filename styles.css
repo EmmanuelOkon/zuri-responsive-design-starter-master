@@ -384,6 +384,14 @@ div.footer h6 {
         box-sizing: border-box;
     }
 
+    div.logo {
+        font-size: 20px;
+    }
+
+    div.nav-bar {
+        padding: 16px 14px;
+    }
+
     div.hero-section {
         background: #304353;
         padding: 4rem;
@@ -398,9 +406,11 @@ div.footer h6 {
     }
 
     div.hero-background-pos {
+        display: none;
         position: absolute;
         right: 0px;
-        left: 52%;
+        left: 0px;
+        /* top: 50%; */
         background: #fff;
         width: 140px;
         height: 140px;
@@ -408,14 +418,27 @@ div.footer h6 {
         box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
     }
 
+    div.background h4 {
+        padding: 20px;
+    }
+
     div.background {
         background: #fff;
         box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
-        padding: 10px 15px;
-        width: 220px;
-        height: 40
-        0px;
-        position: relative;
+        /* padding: 2px; */
+        /* width: 250px; */
+        height: 350px;
+    }
+
+    div.background p {
+        padding: 1px;
+        font-size: 14px;
+        z-index: 10;
+        
+    }
+
+    div.snapshot-team {
+        padding: 0px 30px;
     }
 
     div.snapshot-box-content {
