@@ -377,6 +377,37 @@ div.footer h6 {
         display: flex;
         flex-wrap: wrap;
     }
+
+    div.nav-bar {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    div.hero-section {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    div.hero-background {
+        padding: 5rem;
+    }
+
+    div.background h4 {
+        padding: 1rem;
+    }
+
+    div.background {
+        width: 600px;        
+    }
+
+    div.background p {
+        font-size: 1rem;
+        position: absolute;
+        z-index: 20;
+        padding: 1rem;
+    }
 }
 
 @media (max-width: 425px) {
@@ -385,16 +416,27 @@ div.footer h6 {
     }
 
     div.logo {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     div.nav-bar {
-        padding: 16px 14px;
+        padding: 2rem 2rem;
+    }
+
+    div.hero-content-heading h3 {
+        text-align: left;
+        font-size: 30px;
+    }
+
+    div.hero-content-heading p {
+        text-align: left;
+        padding-top: 2rem;
+        letter-spacing: 0.5px;
     }
 
     div.hero-section {
         background: #304353;
-        padding: 4rem;
+        padding: 2rem;
     }
 
     div.hero-background {
@@ -410,7 +452,6 @@ div.footer h6 {
         position: absolute;
         right: 0px;
         left: 0px;
-        /* top: 50%; */
         background: #fff;
         width: 140px;
         height: 140px;
@@ -425,8 +466,6 @@ div.footer h6 {
     div.background {
         background: #fff;
         box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
-        /* padding: 2px; */
-        /* width: 250px; */
         height: 350px;
     }
 
@@ -489,11 +528,5 @@ div.footer h6 {
         background: transparent;
         color: #f0f0f0;
     }
-
-}
-
-
-@media (max-width: 320px) {
-
 
 }
