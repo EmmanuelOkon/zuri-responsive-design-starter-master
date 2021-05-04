@@ -353,6 +353,12 @@ div.footer h6 {
 
 @media (max-width: 769px) {
 
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: left;
+        flex-direction: column;
+    }
+
     .nav-bar {
         width: 100%;
     }
@@ -367,15 +373,23 @@ div.footer h6 {
     .nav-bar.responsive ul li a {
         float: none;
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         text-align: right;
     }
 
     .nav-bar ul li a:not(logo) {display: none;}
     .nav-bar ul li a.icon {
-        float: right;
+        float: left;
         display: flex;
         flex-wrap: wrap;
+    }
+
+    ul.nav-links {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
     }
 
     div.nav-bar {
